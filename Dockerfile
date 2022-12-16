@@ -3,4 +3,4 @@ WORKDIR /usr/src/app
 COPY . .
 RUN make install
 CMD ["make", "run"]
-EXPOSE 8000
+EXPOSE 8080
